@@ -1,6 +1,27 @@
 body {
     background-color: lightblue;
+    font-family: "Special Elite", Helvetica;
+    color: dimgray;
+    text-align: center;
 }
 
 .logo {max-width: 300px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.quiz-area {
+
+}
+.result {
+
+}
+.player-score {
+
+}
+.footer {
+    font-size: x-small;
 }
