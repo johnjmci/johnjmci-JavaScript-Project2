@@ -14,14 +14,48 @@ body {
 }
 
 .quiz-area {
+    background-color: white;
+    box-sizing: border-box;
+    width: 80%;
+    height: 35vh;
+    max-height: 500px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
 
 }
-.result {
+
+#wronga {
+    color: lightcoral;
+
+}
+#righta {
+    color: lightgreen;
+}
+.answer-area {
+    background-color: blue;
+    box-sizing: border-box;
+    width: 80%;
+    height: 35vh;    
+    max-height: 500px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2%;
 
 }
 .player-score {
-
+    background-color: blueviolet;
+    width: 80%;
+    display: inline-block;
 }
 .footer {
     font-size: x-small;
+}
+
+.btn {
+    font-family: "Special Elite", Helvetica;
+    color: dimgray;
+    margin: 30px;
 }
