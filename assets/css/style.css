@@ -13,6 +13,20 @@ body {
     font-size: 3rem;
 }
 
+.welcome {
+    background-color: grey;
+    box-sizing: border-box;
+    color: white;
+    width: 80%;
+    height: 35vh;
+    max-height: 500px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+
+}
+
 .quiz-area {
     background-color: white;
     box-sizing: border-box;
@@ -37,7 +51,7 @@ body {
     background-color: blue;
     box-sizing: border-box;
     width: 80%;
-    height: 35vh;    
+    height: 25vh;    
     max-height: 500px;
     max-width: 900px;
     margin-left: auto;
@@ -57,5 +71,23 @@ body {
 .btn {
     font-family: "Special Elite", Helvetica;
     color: dimgray;
-    margin: 30px;
+    border-radius: 3px;
+    margin: 15px;
+    padding: 5px;
+}
+
+.btn:hover {
+    background-color: gray;
+    color: white;
+}
+
+.btn-right {
+background-color: lightgreen;}
+
+.btn-right {
+    border-color: lightcoral;
+}
+
+.hidden {
+    display: none;
 }

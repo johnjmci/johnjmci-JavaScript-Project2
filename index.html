@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/style.css">
+    <script defer src="/assets/js/script.js"></script>
     <title>the office quiz</title>
 </head>
 <body>
@@ -16,18 +17,23 @@
         <img class="logo" src="/assets/images/MSOfficeImage1.png" alt="logo">the US office - test your knowledge
     </h1>
 
-    <div class="quiz-area"></div>
+    <div id="welcome">This is where our welcome message will be displayed.
+        <br>
+        <button id="startButton" class="btn">test me!</button>
+    </div>
+
+    <div class="quiz-area">This is where questions will be displayed.</div>
 
     <div class="answer-area">
-    <button id="btn" class="btn1">Option 1</button>
+    <button class="btn" id="btn1">Option 1</button>
     <br>
-    <button id="btn" class="btn2">Option 2</button>
+    <button class="btn" id="btn2">Option 2</button>
     <br>
-    <button id="btn" class="btn3">Option 3</button>
+    <button class="btn" id="btn3">Option 3</button>
     </div>
 
 
-    <div user="player-score"></div>
+    <div class="player-score"></div>
         <p class="scorebox">right answers <span id="righta">0</span></p>
         <p class="scorebox">wrong answers <span id="wronga">0</span></p>
 
