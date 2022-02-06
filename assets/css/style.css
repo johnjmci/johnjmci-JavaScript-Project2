@@ -8,23 +8,9 @@ body {
 .logo {max-width: 300px;
 }
 
-.heading {
+#heading {
     text-align: center;
     font-size: 3rem;
-}
-
-.welcome {
-    background-color: grey;
-    box-sizing: border-box;
-    color: white;
-    width: 80%;
-    height: 35vh;
-    max-height: 500px;
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 2%;
-
 }
 
 .quiz-area {
@@ -32,7 +18,7 @@ body {
     box-sizing: border-box;
     font-size: 20px;
     width: 80%;
-    height: 5vh;
+    height: 15vh;
     max-height: 500px;
     max-width: 900px;
     margin-left: auto;
@@ -48,26 +34,21 @@ body {
 #righta {
     color: lightgreen;
 }
-.answer-area {
+
+.player-score {
     background-color: white;
-    box-sizing: border-box;
-    font-size: 30px;
     width: 80%;
     height: 15vh;    
     max-height: 500px;
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 2%;
-
-}
-.player-score {
-    background-color: blueviolet;
-    width: 80%;
+    padding-top: 2%;;
     display: inline-block;
 }
 .footer {
     font-size: x-small;
+    padding: 2%;
 }
 
 .btn {

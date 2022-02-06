@@ -13,26 +13,42 @@
 </head>
 
 
+    <!-- section of page showing title and image -->
 <body>
-    <h1 class="heading">
+
+
+    <h1 id="heading">
         <img class="logo" src="/assets/images/MSOfficeImage1.png" alt="logo">the US office - test your knowledge
     </h1>
 
+    <!-- section of page showing a welcome message with instructions -->
+
+
     <div id="welcome">This is where our welcome message will be displayed.
         <br>
-        <button id="startButton" class="btn">test me!</button>
+        <button class="btn">test me!</button>
     </div>
 
-    <div id="title" class="quiz-area">This is where questions will be displayed / class is quiz-area.</div>
-    <div class="answer-area">
-        <button class="alternative"></button>
-        <button class="alternative"></button>
-        <button class="alternative"></button>
+    <!-- section of page where questions are displayed -->
+
+    <div class="quiz-area">This is where questions will be displayed / class is quiz-area.
+        <br>
+        <br>
+        <button class="btn">Option 1</button>
+        <button class="btn">Option 2</button>
+        <button class="btn">Option 3</button>
     </div>
 
-    <div class="player-score"></div>
-        <p class="scorebox">right answers <span id="righta">0</span></p>
-        <p class="scorebox">wrong answers <span id="wronga">0</span></p>
+    <!-- section of page where answers are submitted -->
+
+    
+
+    <!-- score displayed -->
+
+    <div class="player-score">
+        <p>right answers = <span id="righta">0</span></p>
+        <p>wrong answers = <span id="wronga">0</span></p>
+    </div>
 
      <div class="footer">This game is produced for educational purposes only. All rights remain with original content creators.</div>
     <script src="/assets/js/script.js"></script>
