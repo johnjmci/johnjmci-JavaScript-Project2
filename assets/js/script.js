@@ -34,7 +34,64 @@ let questions = [
       choice2: "Princess Lady",
       choice3: "Sprinkles",
       answer: 3
-   }
+   },
+   {
+      question: "Michael likes to wake up to the smell of what in the morning?",
+      choice1: "Coffee", 
+      choice2: "Bacon",
+      choice3: "Money",
+      answer: 2
+   },
+   {
+      question: "What was the name of Jan Levinson's assistant at corporate?",
+      choice1: "Storm", 
+      choice2: "Jason",
+      choice3: "Hunter",
+      answer: 3
+   },
+   {
+      question: "How many vasectomies did Michael have?",
+      choice1: "1", 
+      choice2: "2",
+      choice3: "3",
+      answer: 3
+   },
+   {
+      question: "What was the name of Kevin, Kelly, Erin and Meredith's quiz team?",
+      choice1: "The Einsteins", 
+      choice2: "The Hawkings",
+      choice3: "The Edisons",
+      answer: 1
+   },
+   {
+      question: "What username does Michael pick for the online dating service he joins?",
+      choice1: "Little Kid Lover", 
+      choice2: "Big Kid Lover",
+      choice3: "Lady Lover",
+      answer: 1
+   },
+   {
+      question: "Who did Dwight bring as his date to Michael and Jan's dinner party?",
+      choice1: "His lawyer", 
+      choice2: "His cousin",
+      choice3: "His former babysitter",
+      answer: 3
+   },
+   {
+      question: "What nickname does Andy give Jim?",
+      choice1: "Big Eagle", 
+      choice2: "Big Tiger",
+      choice3: "Big Tuna",
+      answer: 3
+   },
+   {
+      question: "Who did Kevin get for Secret Santa?",
+      choice1: "No one", 
+      choice2: "Himself",
+      choice3: "Michael",
+      answer: 3
+   },
+
 ]
 
 
