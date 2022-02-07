@@ -9,6 +9,10 @@ function newGame() {
 // create question and answer dynamic
 const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName("choice-text"));
+const questionCounterText = document.getElementById("questionCounter");
+const scoreText = document.getElementById("score");
+
+
 
 let currentQuestion = {};
 let acceptingAnswers = false;
@@ -50,10 +54,15 @@ startGame = () => {
 getNewQuestion = () => {
    
    if (availableQuestions.length == 0 || questionCounter >= max_questions) {
+   // storing final score so that it can be referenced in the results page
+   localStorage.setItem('mostRecentScore', score);
+
    // user should be taken to the results page 
    return window.location.assign("/results.html");
 }
    questionCounter++;
+   questionCounterText.innerText = questionCounter + "/" + max_questions;
+
    const questionIndex = Math.floor(Math.random() * availableQuestions.length);
    currentQuestion = availableQuestions[questionIndex];
    question.innerText = currentQuestion.question;
@@ -80,6 +89,10 @@ choices.forEach(choice => {
       const classToApply = 
       selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
 
+      if(classToApply == 'correct') {
+         incrementScore(correct_bonus);
+      }
+
       selectedChoice.parentElement.classList.add(classToApply);
       
       setTimeout(() => {
@@ -90,5 +103,9 @@ choices.forEach(choice => {
    });
 });
 
+incrementScore = num => {
+   score +=num;
+   scoreText.innerText = score;
+};
 
 startGame();
