@@ -10,21 +10,20 @@ function newGame() {
 const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName("choice-text"));
 
-let currentQuestion = {},
+let currentQuestion = {};
 let acceptingAnswers = true;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 
 let questions = [
-   { 
-   question: "What is the names of Jim and Pam Halpert's son?”,
-   choice1: "Charles”,
-   choice2: "Phillip”,
-   choice3: "Edward”,
-   answer: 2 
-   }, 
-
+   {
+      question: "What is the name of Jim and Pam's son?",
+      choice1: "Charles", 
+      choice2: "Phillip",
+      choice3: "Edward",
+      answer: 2
+   }
 ]
 
 
@@ -41,11 +40,16 @@ startGame = () => {
    getNewQuestion();
 };
 
-getNewQuestion() = () => {
+getNewQuestion = () => {
    questionCounter++;
    const questionIndex = Math.floor(Math.random() * availableQuestions.length);
    currentQuestion = availableQuestions[questionIndex];
    question.innerText = currentQuestion.question;
+
+   choices.forEach(choice => {
+      const number = choice.dataset["number"];
+      choice.innerText = currentQuestion["choice" + number];
+   });
     
 };
 
