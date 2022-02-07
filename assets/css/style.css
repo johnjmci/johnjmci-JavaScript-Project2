@@ -49,6 +49,14 @@ body {
     color: lightgreen;
 }
 
+.correct {
+    background-color: lightgreen;
+}
+
+.incorrect {
+    background-color: lightcoral;
+}
+
 .player-score {
     background-color: white;
     width: 80%;
