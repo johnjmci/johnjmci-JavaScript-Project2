@@ -86,6 +86,19 @@ body {
     color: white;
 }
 
+#answer-btn {
+    font-family: "Special Elite", Helvetica;
+    color: dimgray;
+    border-radius: 3px;
+    margin: 15px;
+    padding: 5px;
+}
+
+#answer-btn:hover {
+    background-color: gray;
+    color: white;
+}
+
 .btn-right {
 background-color: lightgreen;}
 

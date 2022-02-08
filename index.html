@@ -33,15 +33,26 @@
     <div id="hud">
         <div id="hud-item">
             <p class="hud-prefix">
-                Question
+                Question:
             </p>
             <h1 class="hud-main-text" id="questionCounter">
                 
             </h1>
         </div>
+         <!-- section of page where questions are displayed -->
+
+    <div class="question-area" id="question"><h3></h3></div>
+    
+    <!-- section of page where answers are submitted -->
+    
+    <div class="answer-area">
+        <button id="answer-btn" class="choice-text" data-number="1">Option 1</button>
+        <button id="answer-btn" class="choice-text" data-number="2">Option 2</button>
+        <button id="answer-btn" class="choice-text" data-number="3">Option 3</button>
+    </div>
         <div id="hud-item">
             <p class="hud-prefix">
-                score
+                Score so far: 
             </p>
             <h1 class="hud-main-text" id="score">
                 0
@@ -49,27 +60,6 @@
         </div>
     </div>
 
-    <!-- section of page where questions are displayed -->
-
-    <div class="question-area" id="question"><h3></h3></div>
-    
-    
-    <div class="answer-area">
-        <button class="choice-text" class="btn" data-number="1">Option 1</button>
-        <button class="choice-text" class="btn" data-number="2">Option 2</button>
-        <button class="choice-text" class="btn" data-number="3">Option 3</button>
-    </div>
-
-    <!-- section of page where answers are submitted -->
-
-    
-
-    <!-- score displayed -->
-
-    <div class="player-score">
-        <p>right answers = <span id="righta">0</span></p>
-        <p>wrong answers = <span id="wronga">0</span></p>
-    </div>
 
      <div class="footer">This game is produced for educational purposes only. All rights remain with original content creators.</div>
     <script src="/assets/js/script.js"></script>
