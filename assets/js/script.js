@@ -1,9 +1,13 @@
 // instruction to display and then hide welcome text when game starts 
 const BeginGame = document.getElementById("welcome")
+const StartQuiz = document.getElementById("results")
+
 BeginGame.addEventListener("click", newGame)
  
 function newGame() {
-   BeginGame.classList.add("hidden")
+   BeginGame.classList.add("hide")
+   StartQuiz.classList.add("unhide")
+
 }
 
 // create question and answer dynamic
