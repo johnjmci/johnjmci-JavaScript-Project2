@@ -10,3 +10,4 @@ finalScore.innerText = mostRecentScore;
 10 to 30 = Temp
 0 = Intern
 */
+
