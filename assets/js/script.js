@@ -1,12 +1,12 @@
 // instruction to display and then hide welcome text when game starts 
-const gameWelcome = document.getElementById("welcome")
-const startQuiz = document.getElementById("results")
+const gameWelcome = document.getElementById("welcome");
+const startQuiz = document.getElementById("results");
 
-gameWelcome.addEventListener("click", newGame)
+gameWelcome.addEventListener("click", newGame);
  
 function newGame() {
-   gameWelcome.classList.add("hide")
-   startQuiz.classList.add("unhide")
+   gameWelcome.classList.add("hide");
+   startQuiz.classList.add("unhide");
 
 }
 
@@ -96,7 +96,7 @@ let questions = [
       answer: 2
    },
 
-]
+];
 
 
 // constants necessary for game to function
