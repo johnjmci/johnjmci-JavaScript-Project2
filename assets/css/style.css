@@ -8,7 +8,7 @@ body {
 .logo {max-width: 200px;
 }
 
-h1 {
+#header {
     text-align: center;
     font-size: 40px;
 }
@@ -18,7 +18,7 @@ h1 {
     box-sizing: border-box;
     font-size: 20px;
     width: 80%;
-    height: 15vh;
+    height: 13vh;
     max-height: 500px;
     max-width: 900px;
     margin-left: auto;
@@ -142,4 +142,25 @@ h1 {
 
 .unhide {
     visibility: visible;
+}
+
+/* Media queries and optimisation for mobile screens 800px and down */
+
+@media screen and (max-width: 950px) {
+    .logo {
+        max-width: 100px;
+    }
+    #header {
+        position: relative;
+        font-size: 20px;
+    }
+    .results-area {
+        font-size: 15px;
+        height: 50vh;
+    }
+    #endPicture {
+        width: 150px;
+        height: 150px;
+
+    }
 }
