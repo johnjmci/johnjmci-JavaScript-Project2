@@ -41,6 +41,13 @@ body {
 
 }
 
+#endPicture {
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
 #wronga {
     color: lightcoral;
 
