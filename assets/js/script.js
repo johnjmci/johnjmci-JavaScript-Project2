@@ -93,7 +93,7 @@ let questions = [
       choice1: "No one", 
       choice2: "Himself",
       choice3: "Michael",
-      answer: 3
+      answer: 2
    },
 
 ]
@@ -102,7 +102,7 @@ let questions = [
 // constants necessary for game to function
 
 const correct_points = 10;
-const max_questions = 3;
+const max_questions = 10;
 
 startGame = () => {
    questionCounter = 0;
