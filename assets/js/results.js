@@ -11,3 +11,11 @@ finalScore.innerText = mostRecentScore;
 0 = Intern
 */
 
+
+var messages = ["Regional Manager", "Assistant to the Regional Manager", "Sales Rep", "Temp", "Intern"];
+var scoreRange;
+if (mostRecentScore == 10) {scoreRange = 4}
+if (mostRecentScore == 20) {scoreRange = 4}
+if (mostRecentScore == 30) {scoreRange = 4}
+
+document.getElementById("feedbackMessage").innerHTML = messages[scoreRange];
