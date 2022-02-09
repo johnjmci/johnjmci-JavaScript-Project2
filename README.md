@@ -1,33 +1,37 @@
-## US Offive Trivia Quiz
+## US Office Trivia Quiz
+[Access live project here](https://johnjmci.github.io/johnjmci-JavaScript-Project2/)
 
 ## Background
-CGBG’s is a website created to promote and share information about a coffee shop and cafe located in Bristol, UK. CGBG’s is run by a couple, Ethan and Charlotte, and combines their passions and skills for good coffee and delicious baked goods.
+This project presents an online quiz based on the popular televisiion show The US Office. 
+Players are presented with a deck of ten questions to test their knowledge of the show, its storylines, and characters. 
 
-This is the first website created for the business, they have previously relied on social media as their digital communications channels. The site serves as an opportunity to share key practical information to prospective and returning visitors, as well as promoting the values and ethos which drive the business. The site will provide the opportunity for new customers and visitors to the city to discover the business, and for returning or regular customers to reference details such as latest opening hours and events listings.
+The site is intended to be simple to use, interactive and visually appealing. The structure of the quiz invites and enables players to play again and again to try and achieve a perfect score. 
 
 ## Features & Format
-CGBG’s follows a one-page format split into sections. This format has been selected as the site itself is relatively simple in terms of the amount and format of information it contains. This format is especially fitting as this is the first iteration of a website profiling and promoting the CGBG’s brand.
-
-The one-page format allows the designer to take the user on a defined journey by determining the ordering of content and information, while the use of a fixed nav bar retains the freedom and control for visitors to jump to where they wish to be should they arrive with a predetermined destination or objective. As a brand driven by passion and creativity, it is desirable to showcase the visitor experience and products through the use of simple but striking photography. The one-page format allows for imagery to punctuate content, also acting as section divides when the site reconfigures for smaller screen sizes.
+The site contains two main sections:
+1) The landing page and playing area.
+2) The results page, providing feedback to players. 
 
 ## Branding
-As a relatively new company, CGBG’s do not have an established visual identity beyond their logo and preference on imagery style. Therefore principles were defined around colours and typography to allow the site to convey a look and feel that is complementary to the brand, and which can be incorporated into the brands developing brand identity toolkit.
+Branding of the site has been kept intentionally minimal. This is intended to contribute to the simplistic and easy to use nature of the site. 
 
-Fonts - Overpass and Chivo, selected via fontpair / Arial as fallback
+The colours and fonts have been selected to pay tribute to the aesthetic of the television show and appeal to fans of the show, who will experience a sense of familiarity when engaging with the site. 
 
-Font colour - #343434, informed by review of colour performance of options using WAVE web accessibility tool
+Fonts - The site uses the Special Elite font family and Helvetica, sourced from Google fonts. 
 
-/b>Brand colours - Judge Gray #523F31 Vanilla #D3BBA6 Envy #88A691 Dusty Gray #A49C9C
+Font colour - The font colour used is black. This has been informed and amended from a previous choice by review of colour performance using WAVE web accessibility tool.
+
+Colour palette - The main background colour used is light blue, with text boxes being white.
 
 ## Design Approach and User Experience
-The approach to the design of the site has been informed by reference to the five planes of user experience design. 1. Strategy -
-a) For business owners - create a site that can act as an easy to manage space to share information about their business
-b) For customers - act as a one-stop location to quickly and easily collect information about the business and its offerings.
-2. Scope - The site is to be relatively simple. Users should be able to glance at the site and find the information that they are looking for, or find it in less than three moves/actions from arrival on the site.
-3. Structure - Core reference information should be at the top of the site, to include address and opening times. Less frequently referenced information will form subsequent sections of the site and live deeper in the site’s structure.
-4. Skeleton - The site’s design was drafted using Figma, producing useful visualisations for discussion with the client to review and tweak into a final design ahead of build.
-5. Surface - This has been informed by the work around the brand identity, creating rules and elements necessary to build a visually appealing site which complements the brand identity.
-CGBG’s Figma Mockup 
+The approach to the design of the site has been informed by reference to the five planes of user experience design. 
+1. Strategy -
+a) For users of the site - create a site which is simple to use and interact with. 
+b) For site owners - create a site which is simple to maintain and includes scopefor future upgrades and advancements. 
+2. Scope - The site focuses on one subject area and allows users to submit answers via a multiple choice functionality. 
+3. Structure - The site bookends the user experience with a welcome message describing the game and a feedback message confiming the user's level of success. 
+4. Skeleton - The site’s design reflects the multiple choice format of the quiz. The style of the quiz and feedback function encourage users to complete the time multiple times in the course of achieving a better or perfect score. 
+5. Surface - The appearance of the site has been intentionally kept minimal, this is in part so as not to distract user's from quickly understanding the functionality fo the site and engaging with the content of the questions being posed. 
 
 ## Completed Features
 Descriptions here highlight value to first-time, returning and frequent visitors to the site.
@@ -79,12 +83,13 @@ Unfixed Bugs
 All bugs discovered have been fixed ahead of deployment.
 
 ## Deployment
-The site was deployed to GitHub pages and the live link can be accessed here - https://johnjmci.github.io/johnjmci-HTMLCSS-Project1/
-The project repository can be accessed here - https://github.com/johnjmci/johnjmci-HTMLCSS-Project1
+The site was deployed to GitHub pages and the live link can be accessed here - https://johnjmci.github.io/johnjmci-JavaScript-Project2/
+The project repository can be accessed here - https://github.com/johnjmci/johnjmci-JavaScript-Project2
 
 ## Credits
 The build of this project has been informed by reference material made available in the Code Institute Diploma in Software Development.
-Some limited troubleshooting has been assisted with reference to W3Schools
+Some limited troubleshooting has been assisted with reference to W3Schools.
+
 
 ## Content
 Website copy was written bespoke for the site
@@ -96,10 +101,9 @@ All images used were sourced from Unsplash and used in accordance with their sta
 ## Languages Used
 HTML5
 CSS3
+JavaScript
 
 ## Frameworks, Libraries & Programs Used
-Font Awesome - Used to source icons used in site.
 [GitHub])https://github.com/ - GitHub is used to store the project code.
-Canva - Used to create logo and site banner.
-Figma - Used to create site layout and wireframes.
+
 
