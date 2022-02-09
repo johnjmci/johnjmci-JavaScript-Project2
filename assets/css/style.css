@@ -1,7 +1,7 @@
 body {
     background-color: lightblue;
     font-family: "Special Elite", Helvetica;
-    color: dimgray;
+    color: #000000;
     text-align: center;
 }
 
@@ -101,7 +101,7 @@ h1 {
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 2%;;
+    padding-top: 2%;
     display: inline-block;
 }
 .footer {
@@ -111,27 +111,27 @@ h1 {
 
 .btn {
     font-family: "Special Elite", Helvetica;
-    color: dimgray;
+    color: #000000;
     border-radius: 3px;
     margin: 15px;
     padding: 10px;
 }
 
 .btn:hover {
-    background-color: gray;
+    background-color: #000000;
     color: white;
 }
 
 #answer-btn {
     font-family: "Special Elite", Helvetica;
-    color: dimgray;
+    color: #000000;
     border-radius: 3px;
     margin: 5px;
     padding: 5px;
 }
 
 #answer-btn:hover {
-    background-color: gray;
+    background-color: #000000;
     color: white;
 }
 
