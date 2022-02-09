@@ -1,17 +1,16 @@
-<h1>CGBG's / Coffee Guy Bakery Girl's Website</h1>
-View the live project here
+## US Offive Trivia Quiz
 
-Background
+## Background
 CGBG’s is a website created to promote and share information about a coffee shop and cafe located in Bristol, UK. CGBG’s is run by a couple, Ethan and Charlotte, and combines their passions and skills for good coffee and delicious baked goods.
 
 This is the first website created for the business, they have previously relied on social media as their digital communications channels. The site serves as an opportunity to share key practical information to prospective and returning visitors, as well as promoting the values and ethos which drive the business. The site will provide the opportunity for new customers and visitors to the city to discover the business, and for returning or regular customers to reference details such as latest opening hours and events listings.
 
-Features & Format
+## Features & Format
 CGBG’s follows a one-page format split into sections. This format has been selected as the site itself is relatively simple in terms of the amount and format of information it contains. This format is especially fitting as this is the first iteration of a website profiling and promoting the CGBG’s brand.
 
 The one-page format allows the designer to take the user on a defined journey by determining the ordering of content and information, while the use of a fixed nav bar retains the freedom and control for visitors to jump to where they wish to be should they arrive with a predetermined destination or objective. As a brand driven by passion and creativity, it is desirable to showcase the visitor experience and products through the use of simple but striking photography. The one-page format allows for imagery to punctuate content, also acting as section divides when the site reconfigures for smaller screen sizes.
 
-Branding
+## Branding
 As a relatively new company, CGBG’s do not have an established visual identity beyond their logo and preference on imagery style. Therefore principles were defined around colours and typography to allow the site to convey a look and feel that is complementary to the brand, and which can be incorporated into the brands developing brand identity toolkit.
 
 Fonts - Overpass and Chivo, selected via fontpair / Arial as fallback
@@ -20,7 +19,7 @@ Font colour - #343434, informed by review of colour performance of options using
 
 /b>Brand colours - Judge Gray #523F31 Vanilla #D3BBA6 Envy #88A691 Dusty Gray #A49C9C
 
-Design Approach and User Experience
+## Design Approach and User Experience
 The approach to the design of the site has been informed by reference to the five planes of user experience design. 1. Strategy -
 a) For business owners - create a site that can act as an easy to manage space to share information about their business
 b) For customers - act as a one-stop location to quickly and easily collect information about the business and its offerings.
@@ -30,7 +29,7 @@ b) For customers - act as a one-stop location to quickly and easily collect info
 5. Surface - This has been informed by the work around the brand identity, creating rules and elements necessary to build a visually appealing site which complements the brand identity.
 CGBG’s Figma Mockup 
 
-Completed Features
+## Completed Features
 Descriptions here highlight value to first-time, returning and frequent visitors to the site.
 
 Navigation Bar - The navigation bar takes prime position at the top of the site, sitting on the right-hand side. The nav bar has been coded to be fixed, so that it remains in position as the user moves down through the site. It contains links to allow the user to easily jump to different sections of the site with ease, minimising scrolling and effort on the part of the user.
@@ -53,14 +52,14 @@ Suppliers & Partners - The owners believe that their focus on great produce is o
 
 Footer - The footer has been utilised to share information on the ownership of the site. It has also been used to share again and reiterate the key CTA for the business of driving traffic to and building the audience of their social media channels. 
 
-Future Build and Features
+## Future Build and Features
 At launch, the site created meets all of the criteria requested by the business owners. There are some features which are to be revisited in the future:
 
 Newsletter sign-up form - In the future, when the team at CGBG’s have capacity to administer it and the business has been running for more than one year, it is has been suggested that the site could add value by hosting a sign-up form for a monthly email newsletter. At that time, developers should review the one-page format of the site to ensure it is still fit for purpose and able to comfortably contain additional content.
 
 Embed social feeds - Another feature for future consideration is the embedding of one of CGBG’s social media channel feeds eg. Twitter.
 
-Testing
+## Testing
 Code Validation: HTML - No errors were returned when passing through the official W3C validator
 CSS - No errors were found when passing through the official W3C Jigsaw validator
 
@@ -79,27 +78,28 @@ Navigation bar text was too large and not in proportion on mobile devices.
 Unfixed Bugs
 All bugs discovered have been fixed ahead of deployment.
 
-Deployment
+## Deployment
 The site was deployed to GitHub pages and the live link can be accessed here - https://johnjmci.github.io/johnjmci-HTMLCSS-Project1/
 The project repository can be accessed here - https://github.com/johnjmci/johnjmci-HTMLCSS-Project1
 
-Credits
+## Credits
 The build of this project has been informed by reference material made available in the Code Institute Diploma in Software Development.
 Some limited troubleshooting has been assisted with reference to W3Schools
 
-Content
+## Content
 Website copy was written bespoke for the site
 The icons in the footer were taken from Font Awesome
 
-Media
+## Media
 All images used were sourced from Unsplash and used in accordance with their standard licence - “Unsplash grants you an irrevocable, nonexclusive, worldwide copyright license to download, copy, modify, distribute, perform, and use photos from Unsplash for free, including for commercial purposes, without permission from or attributing the photographer or Unsplash. This license does not include the right to compile photos from Unsplash to replicate a similar or competing service.”
 
-Languages Used
+## Languages Used
 HTML5
 CSS3
 
-Frameworks, Libraries & Programs Used
+## Frameworks, Libraries & Programs Used
 Font Awesome - Used to source icons used in site.
 [GitHub])https://github.com/ - GitHub is used to store the project code.
 Canva - Used to create logo and site banner.
 Figma - Used to create site layout and wireframes.
+
