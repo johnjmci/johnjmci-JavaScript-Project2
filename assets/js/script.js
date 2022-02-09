@@ -119,7 +119,7 @@ loadQuestion = () => {
    localStorage.setItem('mostRecentScore', score);
 
    // user should be taken to the results page 
-   return window.location.assign("/results.html");
+   return window.location.assign("/johnjmci-JavaScript-Project2/results.html");
 }
    questionCounter++;
    questionCounterText.innerText = questionCounter + "/" + max_questions;
