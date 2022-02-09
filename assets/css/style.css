@@ -5,12 +5,12 @@ body {
     text-align: center;
 }
 
-.logo {max-width: 300px;
+.logo {max-width: 200px;
 }
 
-#heading {
+h1 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 40px;
 }
 
 .question-area {
