@@ -1,12 +1,12 @@
 // instruction to display and then hide welcome text when game starts 
-const BeginGame = document.getElementById("welcome")
-const StartQuiz = document.getElementById("results")
+const gameWelcome = document.getElementById("welcome")
+const startQuiz = document.getElementById("results")
 
-BeginGame.addEventListener("click", newGame)
+gameWelcome.addEventListener("click", newGame)
  
 function newGame() {
-   BeginGame.classList.add("hide")
-   StartQuiz.classList.add("unhide")
+   gameWelcome.classList.add("hide")
+   startQuiz.classList.add("unhide")
 
 }
 
@@ -101,7 +101,7 @@ let questions = [
 
 // constants necessary for game to function
 
-const correct_bonus = 10;
+const correct_points = 10;
 const max_questions = 3;
 
 startGame = () => {
@@ -109,10 +109,10 @@ startGame = () => {
    score = 0;
    availableQuestions = [...questions];
    console.log(availableQuestions);
-   getNewQuestion();
+   loadQuestion();
 };
 
-getNewQuestion = () => {
+loadQuestion = () => {
    
    if (availableQuestions.length == 0 || questionCounter >= max_questions) {
    // storing final score so that it can be referenced in the results page
@@ -151,15 +151,15 @@ choices.forEach(choice => {
       selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
 
       if(classToApply == 'correct') {
-         incrementScore(correct_bonus);
+         incrementScore(correct_points);
       }
 
       selectedChoice.parentElement.classList.add(classToApply);
       
       setTimeout(() => {
          selectedChoice.parentElement.classList.remove(classToApply);
-         getNewQuestion();
-      }, 1000);
+         loadQuestion();
+      }, 500);
            
    });
 });
