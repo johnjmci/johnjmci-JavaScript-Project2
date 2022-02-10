@@ -1,7 +1,7 @@
 ## US Office Trivia Quiz
 [Access live project here](https://johnjmci.github.io/johnjmci-JavaScript-Project2/)
 
-![US Office site shown on screens of different sizes](../johnjmci-JavaScript-Project2/docs/images/Screenshot 2022-02-10 at 08.33.55.png)
+<img width="1187" alt="Screenshot 2022-02-10 at 08 33 55" src="https://user-images.githubusercontent.com/92268504/153383019-534593f8-d952-46cc-a61d-ae6106619e54.png">
 
 ## Background
 This project presents an online quiz based on the popular televisiion show The US Office. 
