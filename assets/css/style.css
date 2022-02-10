@@ -218,8 +218,8 @@ button {
         box-sizing: border-box;
         font-size: 18px;
         width: 80%;
-        height: 40vh;
-        max-height: 600px;
+        height: 200px;
+        max-height: 900px;
         max-width: 900px;
         margin-left: auto;
         margin-right: auto;
