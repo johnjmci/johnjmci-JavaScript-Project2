@@ -213,5 +213,18 @@ button {
         font-family: "Special Elite", Helvetica;
         padding: 8px;
     }
+    .results-area {
+        background-color: white;
+        box-sizing: border-box;
+        font-size: 18px;
+        width: 80%;
+        height: 40vh;
+        max-height: 600px;
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 2%;
+    
+    }
     
 }
