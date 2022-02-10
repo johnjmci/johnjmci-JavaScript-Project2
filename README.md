@@ -1,6 +1,8 @@
 ## US Office Trivia Quiz
 [Access live project here](https://johnjmci.github.io/johnjmci-JavaScript-Project2/)
 
+![US Office site shown on screens of different sizes](../johnjmci-JavaScript-Project2/docs/images/Screenshot 2022-02-10 at 08.33.55.png)
+
 ## Background
 This project presents an online quiz based on the popular televisiion show The US Office. 
 Players are presented with a deck of ten questions to test their knowledge of the show, its storylines, and characters. 
