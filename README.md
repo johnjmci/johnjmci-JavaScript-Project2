@@ -38,6 +38,10 @@ b) For site owners - create a site which is simple to maintain and includes scop
 ## Completed Features
 Descriptions here highlight value to first-time, returning and frequent visitors to the site.
 
+## Possible Future Updates
+There is capacity for the site to be expanded, the roster of questions can be increased from 10.
+Updates and the chance to make the site more evergreen could come from reguar updates, making new decks of cards available. 
+
 ## Testing
 Code Validation: 
 HTML - No errors currently found when code passed through the official W3C validator
@@ -66,7 +70,6 @@ The project repository can be accessed here - https://github.com/johnjmci/johnjm
 ## Credits
 The build of this project has been informed by reference material made available in the Code Institute Diploma in Software Development.
 Some limited troubleshooting has been assisted with reference to W3Schools.
-
 
 ## Content
 Instructional Website copy was written bespoke for the site.
