@@ -218,7 +218,7 @@ button {
         box-sizing: border-box;
         font-size: 18px;
         width: 80%;
-        height: 600px;
+        height: 50vh;
         max-height: 900px;
         max-width: 900px;
         margin-left: auto;
